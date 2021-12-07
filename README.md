@@ -1,9 +1,9 @@
 # Lada Detection
 ### Using Facebook's Detectron2 with a custom dataset
 
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-v3.9.7-blue.svg?logo=python&style=for-the-badge" /></a>
 <a href="https://www.anaconda.org/"><img src="https://img.shields.io/badge/conda-v4.10.3-blue.svg?logo=conda&style=for-the-badge" /></a>
 <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-v1.10.0-red.svg?logo=PyTorch&style=for-the-badge" /></a>
-<a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-v3.9.7-blue.svg?logo=python&style=for-the-badge" /></a>
 <a href="https://ai.facebook.com/tools/detectron//"><img src="https://img.shields.io/badge/detectron-2-blue.svg?logo=detectron&style=for-the-badge" /></a>
 
 <p align="center">
