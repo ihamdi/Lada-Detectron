@@ -1,4 +1,4 @@
-# Detectron2
+# Lada Detection
 ### Using Facebook's Detectron2 with a custom dataset
 
 <a href="https://www.anaconda.org/"><img src="https://img.shields.io/badge/conda-v4.10.3-blue.svg?logo=conda&style=for-the-badge" /></a>
