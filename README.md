@@ -62,6 +62,6 @@ For any questions or feedback, please feel free to post comments or contact me a
 
 [Detectron2](https://github.com/facebookresearch/detectron2)'s Github page by Facebook Research.
 
-[AarohiSingla](https://github.com/AarohiSingla/Detectron2-Tutorial)'s code was used as base.
-
 [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/) by Visual Geometry Group at University of Oxford.
+
+[AarohiSingla](https://github.com/AarohiSingla/Detectron2-Tutorial)'s code was used as base.
