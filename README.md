@@ -4,7 +4,7 @@
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-v3.9.7-blue.svg?logo=python&style=for-the-badge" /></a>
 <a href="https://www.anaconda.org/"><img src="https://img.shields.io/badge/conda-v4.10.3-blue.svg?logo=conda&style=for-the-badge" /></a>
 <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-v1.10.0-red.svg?logo=PyTorch&style=for-the-badge" /></a>
-<a href="https://ai.facebook.com/tools/detectron//"><img src="https://img.shields.io/badge/Detectron2-v0.6+cu102-blue.svg?logo=detectron-2&style=for-the-badge" /></a>
+<a href="https://ai.facebook.com/tools/detectron//"><img src="https://img.shields.io/badge/Detectron-2-blue.svg?logo=detectron&style=for-the-badge" /></a>
 <a href="https://jupyter.org/try"><img src="https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter" /><a>
 
 
