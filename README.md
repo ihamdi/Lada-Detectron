@@ -24,7 +24,7 @@ conda create --name env-name ipykernel
 3. Install [PyTorch](https://pytorch.org/get-started/locally/)
 
 4. Install Detectron2:
-Visit the [Installation](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) to install Detectron2 according to your operating system and Pytorch/Cudatoolkit version.
+Visit the [official website](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) to install Detectron2 according to your operating system and Pytorch/Cudatoolkit version.
 
 For example, I had to run the following line on my Linux machine with Pytorch 1.10.0 and Cudatoolkit 10.2:
 ```
