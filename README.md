@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset:
-Images for custom dataset were obtained from Google, and the masks were created and exported to json using [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html). The dataset has a total of 41 images: 29 for training and 12 for validation.
+Images for custom dataset were obtained from Google, and the annotations were created and exported to json using [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html). The dataset has a total of 41 images: 29 for training and 12 for validation.
 
 ## How to Use:
 Press Run All on the Jupyter Notebook to load the data and then train and validate a model on the dataset.
@@ -45,11 +45,18 @@ Press Run All on the Jupyter Notebook to load the data and then train and valida
 If you'd like to create and use your own custom dataset, all you have to do is follow the same directory structure and place the json files produced by [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html) in the corresponding folder. The Notebook is specifically designed to handle the json files produced by that program.
 
 ## Results:
+As seen in the validation section of the Notebook, the model generally does very well at segmenting Ladas even when the it is partly covered by an object. However, it seems to get a little confused when there are more than one in the image.  
+![2](https://user-images.githubusercontent.com/93069949/144981337-5f62f469-2369-41d8-a5a9-6da51c6b3f7f.png)
+![3](https://user-images.githubusercontent.com/93069949/144981325-245e279b-9499-4099-b159-ff19226606a8.png)
+![4](https://user-images.githubusercontent.com/93069949/144981734-98a12164-7633-4ff6-8647-635047e63c67.png)
+![6](https://user-images.githubusercontent.com/93069949/144981835-8c6cc22c-3e6e-4b68-a112-e9d962f6fa64.png)
 
-
+Ideally, the training data would contain images where there are more than one car in them. 
 
 ### Background:
 This was done purely for learning purposes (and fun) and to get more familiar with Detectron2. The car model Lada was used simply because it was the easiest to annotate due to its flat surfaces.
+
+I would like to see how good this would be at detecting different car models. Another thing I would like to try is detecting and reading number plates as some sort of rudimentary algorith for photo radar.
 
 ---
 
