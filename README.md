@@ -24,7 +24,11 @@ or [download](https://github.com/ihamdi/Detectron2/archive/refs/heads/main.zip) 
 conda create --name env-name ipykernel
 ```
 
-3. Install [PyTorch](https://pytorch.org/get-started/locally/)
+
+3. Install [PyTorch](https://pytorch.org/get-started/locally/) according to your machine. For example:
+```
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+```
 
 4. Install Detectron2:
 Visit the [official website](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) to install Detectron2 according to your operating system and Pytorch/Cudatoolkit version.
@@ -34,7 +38,7 @@ For example, I had to run the following line on my Linux machine with Pytorch 1.
 python -m pip install detectron2 -f   https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.10/index.html
 ```
 
-5. Install dependencies:
+5. Install dependencies from [`requirements.txt`](https://github.com/ihamdi/Dogs-vs-Cats-Classification/blob/main/requirements.txt) file:
 ```
 pip install -r requirements.txt
 ```
