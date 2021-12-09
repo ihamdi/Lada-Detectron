@@ -1,5 +1,5 @@
 # Lada Detection
-### Using Facebook's Detectron2 with a Custom Dataset and Jupyter Notebook
+### Using Facebook's Detectron2 with a Custom Dataset on a Jupyter Notebook
 
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-v3.9.7-blue.svg?logo=python&style=for-the-badge" /></a>
 <a href="https://www.anaconda.org/"><img src="https://img.shields.io/badge/conda-v4.10.3-blue.svg?logo=conda&style=for-the-badge" /></a>
