@@ -19,7 +19,7 @@ conda create --name env-name ipykernel gitpython
 2. Clone Github
 ```
 from git import Repo
-Repo.clone_from("git:https://github.com/ihamdi/Detectron2.git","/your/directory/")
+Repo.clone_from("https://github.com/ihamdi/Detectron2.git","/your/directory/")
 ```
 or [download](https://github.com/ihamdi/Detectron2/archive/refs/heads/main.zip) and extract a copy of the files.
   
