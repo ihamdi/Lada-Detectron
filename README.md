@@ -12,18 +12,18 @@
   <img width="1000" src="https://user-images.githubusercontent.com/93069949/144974647-89acc184-a541-499b-a5eb-3370533639c1.png">
 </p>
 
-1. Clone Github
+1. Create conda environment
 ```
-import git
-git.Git("/your/directory/to/clone").clone("git:https://github.com/ihamdi/Detectron2.git)
+conda create --name env-name ipykernel gitpython
+```
+
+2. Clone Github
+```
+from git import Repo
+Repo.clone_from("git:https://github.com/ihamdi/Detectron2.git","/your/directory/")
 ```
 or [download](https://github.com/ihamdi/Detectron2/archive/refs/heads/main.zip) and extract a copy of the files.
-
-2. Create conda environment
-```
-conda create --name env-name ipykernel
-```
-
+  
 
 3. Install [PyTorch](https://pytorch.org/get-started/locally/) according to your machine. For example:
 ```
