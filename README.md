@@ -38,7 +38,7 @@ For example, I had to run the following line on my Linux machine with Pytorch 1.
 python -m pip install detectron2 -f   https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.10/index.html
 ```
 
-5. Install dependencies from [`requirements.txt`](https://github.com/ihamdi/Dogs-vs-Cats-Classification/blob/main/requirements.txt) file:
+5. Install dependencies from [`requirements.txt`](https://github.com/ihamdi/Detectron2/blob/main/requirements.txt) file:
 ```
 pip install -r requirements.txt
 ```
