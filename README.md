@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset:
-Images for custom dataset were obtained from Google, and the annotations were created and exported to json using [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html). The dataset has a total of 41 images: 29 for training and 12 for validation.
+[Custom dataset](https://github.com/ihamdi/Detectron2/tree/main/lada_dataset/lada) is included on the [Github page](https://github.com/ihamdi/Detectron2) with the code. Images for the custom dataset were obtained from Google Images, and the annotations were created and exported to json using [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html). The dataset has a total of 41 images: 29 for training and 12 for validation.
 
 ## How to Use:
 Press Run All on the Jupyter Notebook to load the data and then train and validate a model on the dataset.
