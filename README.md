@@ -60,6 +60,8 @@ As seen in the validation section of the Notebook, the model generally does very
 
 Ideally, the training data would contain images where there are more than one car in them. 
 
+---
+
 ### Background:
 This was done purely for learning purposes (and fun) and to get more familiar with Detectron2. Detectron2 is already quite powerful in detecting people, cars, umbrellas, ... etc, but I was curious to see how to train it on a new object. The car model Lada was used simply because it was the easiest to annotate due to its straight-line shape.
 
