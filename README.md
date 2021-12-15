@@ -60,7 +60,22 @@ As seen in the validation section of the Notebook, the model generally does very
 Ideally, the training data would contain images where there are more than one car in them. 
 
 ---
+  
+## Changes made to [Installation Tutorial](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=PIbAM2pv-urF)
+1. Inside the get_xxxx_dicts function, 
+  ```
+  for _, anno in annos.items():
+            assert not anno["region_attributes"]
+            anno = anno["shape_attributes"]
+  ```
+  was replaced with 
+  ```
+  annos = annos[0]["shape_attributes"]
+  ```
+  since the json file obtained from [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/) returns a list instead of a dictionary.
 
+---
+  
 ### Background:
 This was done purely for learning purposes (and fun) and to get more familiar with Detectron2. Detectron2 is already quite powerful in detecting people, cars, umbrellas, ... etc, but I was curious to see how to train it on a new object. The car model Lada was used simply because it was the easiest to annotate due to its straight-line shape.
 
@@ -75,7 +90,7 @@ For any questions or feedback, please feel free to post comments or contact me a
 
 ### References:
 
-[AarohiSingla](https://github.com/AarohiSingla/Detectron2-Tutorial) was used as base for this code.
+[Getting Started as Detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/getting_started.html) was used as base for this code.
   
 [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/) by Visual Geometry Group at University of Oxford.
 
