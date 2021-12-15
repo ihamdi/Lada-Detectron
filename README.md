@@ -19,9 +19,9 @@ conda create --name env-name ipykernel gitpython
 2. Clone Github
 ```
 from git import Repo
-Repo.clone_from("https://github.com/ihamdi/Detectron2.git","/your/directory/")
+Repo.clone_from("https://github.com/ihamdi/Lada-Detection.git","/your/directory/")
 ```
-or [download](https://github.com/ihamdi/Detectron2/archive/refs/heads/main.zip) and extract a copy of the files.
+or [download](https://github.com/ihamdi/Lada-Detection/archive/refs/heads/main.zip) and extract a copy of the files.
   
 
 3. Install [PyTorch](https://pytorch.org/get-started/locally/) according to your machine. For example:
