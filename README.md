@@ -1,4 +1,4 @@
-# Lada Detection
+# Lada Detectron
 ### Using MaskRCNN on Custom Dataset with Detectron2 on a Jupyter Notebook
 
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-v3.9.7-blue.svg?logo=python&style=for-the-badge" /></a>
